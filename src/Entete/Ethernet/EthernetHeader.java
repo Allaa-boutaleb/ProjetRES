@@ -19,7 +19,6 @@ public class EthernetHeader {
         StringBuilder sb = new StringBuilder();
         sb.append(mac.toString()+type.toString()+data.toString());
         return sb.toString();
-
     }
 
     public static void main(String[] args) {
