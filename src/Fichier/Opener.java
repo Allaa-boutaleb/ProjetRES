@@ -39,7 +39,7 @@ public class Opener {
 
     public static String filtreTrame(String s) {
 
-        s = s.replaceAll("((\n)|\\b\\w{3,}\\b\\s?)|([r-zR-Z])|(\\b\\w{1}\\b\\s?)|([-+.^:,?!/><'*%;`~$#&_=])", " ");
+        s = s.replaceAll("((\n)|\\b\\w{3,}\\b\\s?)|([g-zG-Z])|(\\b\\w{1}\\b\\s?)|([-+.^:,?!/><'*%;`~$#&_=])", " ");
         s = s.replaceAll(" +", " ");
         return s;
     }

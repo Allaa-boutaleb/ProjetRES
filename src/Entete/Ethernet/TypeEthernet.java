@@ -5,7 +5,7 @@ public class TypeEthernet {
     private final String type;
 
     public TypeEthernet(String type) {
-        this.type = type.replaceAll(" ","");;
+        this.type = type.replaceAll(" ","");
     }
 
     public String getType () {
